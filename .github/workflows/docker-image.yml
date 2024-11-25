@@ -24,7 +24,7 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -t my-nginx-app .
+          docker build -t my-nginx-app .github/workflows/Dockerfile
 
       - name: Run Docker container
         run: |
