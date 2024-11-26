@@ -32,7 +32,7 @@ jobs:
 
       - name: Run Docker container
         run: |
-          docker run -d -p 80:80 ${{ secrets.DOCKERHUB_USERNAME }}/my-app:latest
+          docker run -d -p 8080:80 ${{ secrets.DOCKERHUB_USERNAME }}/my-app:latest
 
       - name: Test Docker container 
         run: | 
