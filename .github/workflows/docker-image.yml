@@ -36,5 +36,5 @@ jobs:
 
       - name: Test Docker container 
         run: | 
-          curl http://localhost:8080
+          curl http://127.0.0.1:8080
  
